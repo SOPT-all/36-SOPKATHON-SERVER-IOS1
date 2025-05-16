@@ -1,0 +1,3 @@
+[submodule "sopkathon-properties"]
+	path = sopkathon-properties
+	url = https://github.com/ssangbaam/sopkathon-properties.git
