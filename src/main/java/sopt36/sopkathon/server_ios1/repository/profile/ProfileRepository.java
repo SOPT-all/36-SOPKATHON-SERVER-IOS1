@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 import sopt36.sopkathon.server_ios1.domain.profile.Profile;
 
 @Repository
-public interface ProfileRepository extends JpaRepository<Profile, Long> {
-
-
+public interface ProfileRepository extends JpaRepository<Profile, Long>, CustomProfileRepository {
 }
+
