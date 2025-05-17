@@ -3,6 +3,8 @@ package sopt36.sopkathon.server_ios1.domain.enums;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
+import java.util.Arrays;
+
 @Getter
 @RequiredArgsConstructor
 public enum Hobby {
@@ -21,4 +23,12 @@ public enum Hobby {
     CAMPING("캠핑");
 
     private final String text;
+
+    public static Hobby fromText(String text) {
+        return Arrays.stream(Hobby.values())
+                .filter(h -> h.getText().equals(text))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("해당 hobby 값이 존재하지 않습니다: " + text));
+    }
+
 }

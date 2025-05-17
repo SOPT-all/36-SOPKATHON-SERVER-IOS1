@@ -13,6 +13,7 @@ import sopt36.sopkathon.server_ios1.domain.enums.Hobby;
 @Table(name = "content")
 public class Content extends BaseEntity {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
 
