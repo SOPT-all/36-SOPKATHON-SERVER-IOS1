@@ -1,3 +1,5 @@
+![오미자_표지](https://github.com/user-attachments/assets/25487e94-ed7d-4305-9b12-476275ec9432)
+
 # 🧩 서버팀 소개
 
 > **경북 5060 액티브 시니어의 취미 기반 친구 매칭 서비스**의 서버를 맡고 있습니다.  
@@ -33,7 +35,7 @@
 
 ## 👥 팀원 구성
 
-| <img src="https://avatars.githubusercontent.com/u/165630285?v=4" width="150"/> | <img src="https://avatars.githubusercontent.com/u/80569323?v=4" width="150"/> |
+| <img src="https://avatars.githubusercontent.com/u/80569323?v=4" width="150"/> | <img src="https://avatars.githubusercontent.com/u/80569323?v=4" width="150"/> |
 |--------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | **박상범**<br/>[@ssangbaam](https://github.com/ssangbaam)                         | **이유빈**<br/>[@buubb](https://github.com/buubb)                                |
 | CI/CD, 서버 배포, 인프라 설계, API 개발                                                         | 서버 배포, DB 설계, API 개발, 예외처리                                                    |
@@ -93,4 +95,5 @@
 ---
 
 ## 📸 서버팀 사진
+![좋아요_오미자_서버팀_사진](https://github.com/user-attachments/assets/5fb636a2-1194-4a79-80f0-2a65fc6fa75e)
 
