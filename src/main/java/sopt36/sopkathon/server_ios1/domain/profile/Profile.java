@@ -1,19 +1,20 @@
 package sopt36.sopkathon.server_ios1.domain.profile;
 
 import jakarta.persistence.*;
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import sopt36.sopkathon.server_ios1.domain.BaseEntity;
 import sopt36.sopkathon.server_ios1.domain.enums.Gender;
 import sopt36.sopkathon.server_ios1.domain.enums.Hobby;
 
 @Getter
 @Entity
+@Builder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor
 @Table(name = "profile")
 public class Profile extends BaseEntity {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
 
